@@ -7,6 +7,8 @@ library(partykit) # Decision Tree
 library(rsample)
 library(magrittr)
 
+#some changes
+
 white_Wine <- read.csv("winequality-white.csv" , sep = ";")
 
 summary(white_Wine)
